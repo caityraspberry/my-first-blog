@@ -1,22 +1,29 @@
 h1 a {
-    color: #FCA205;
+    color: #27354c;
     font-family: 'Lobster';
 }
+
+/*This edits the main background color and such*/
 body {
     padding-left: 15px;
+    background-color: #8e7f63;
 }
+
+/*This is the background to the main title*/
 .page-header {
-    background-color: #ff9400;
+    background-color: #15b2a0;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
 
+/*This is the main title*/
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
+    color: #27354c;
     font-size: 36pt;
     text-decoration: none;
 }
 
+/*This moves the location of the posts and titles and such under the main title*/
 .content {
     margin-left: 40px;
 }
@@ -25,8 +32,9 @@ h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
 }
 
+/*This is the date post*/
 .date {
-    color: #828282;
+    color: #e0d7c5;
 }
 
 .save {
@@ -37,17 +45,20 @@ h1, h2, h3, h4 {
     width: 100%;
 }
 
+/*This is the plus sign in the corner to add a post*/
 .top-menu, .top-menu:hover, .top-menu:visited {
-    color: #ffffff;
+    color: #593c0a;
     float: right;
     font-size: 26pt;
     margin-right: 20px;
 }
 
+/*This edits the the margin between posts*/
 .post {
     margin-bottom: 70px;
 }
 
+/*This is the post titles*/
 .post h1 a, .post h1 a:visited {
     color: #000000;
 }
